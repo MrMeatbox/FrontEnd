@@ -19,7 +19,7 @@ function App() {
     id: 0,
     status: false,
   });
-
+console.log("Rana");
   useEffect(() => {
     axios
       .get(Links.AuthAuth, {
